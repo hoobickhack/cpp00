@@ -1,6 +1,6 @@
-SRCS = megaphone.cpp
+SRCS = phonebook.cpp main.cpp
 OBJS = ${SRCS:.cpp=.o}
-NAME = megaphone
+NAME = phonebook
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 RM = rm -rf
@@ -21,7 +21,7 @@ all: ${NAME}
 
 ${NAME}: ${OBJS}
 	@${CC} ${CFLAGS} ${OBJS} -o ${NAME}
-	@echo "\n ${GRAS}${RED}Megaphone EST COMPILÉ 👏${RESET}\n"
+	@echo "\n ${GRAS}${RED}Phonebook EST COMPILÉ 👏${RESET}\n"
 
 %.o: %.cpp
 	@${CC} ${CFLAGS} -c -I . $< -o $@
