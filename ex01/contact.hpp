@@ -6,14 +6,18 @@
 /*   By: isouaidi <isouaidi@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/28 15:51:16 by isouaidi          #+#    #+#             */
-/*   Updated: 2024/05/28 18:48:53 by isouaidi         ###   ########.fr       */
+/*   Updated: 2024/05/29 17:13:07 by isouaidi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CONTACT_H
 # define CONTACT_H
 
+#include <cctype>
 #include <iostream>
+#include <iomanip>
+#include <string>
+#include <cstdlib> 
 
 class Contact
 {

@@ -15,8 +15,11 @@ class PhoneBook
 
 	PhoneBook(void);
 	~PhoneBook(void);
+	int count;
 
 	void addcontact();
+	void searchcontact();
+	void printcontact();
 };
 
 #endif

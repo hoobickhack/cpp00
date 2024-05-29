@@ -6,7 +6,7 @@
 /*   By: isouaidi <isouaidi@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 16:14:40 by isouaidi          #+#    #+#             */
-/*   Updated: 2024/05/28 18:08:04 by isouaidi         ###   ########.fr       */
+/*   Updated: 2024/05/29 17:03:43 by isouaidi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,9 @@ int main()
 		if (Command == "ADD")
 			phoneBook.addcontact();
 		if (Command == "EXIT")
-			break;		
+			break;
+		if (Command == "SEARCH")
+			phoneBook.searchcontact();	
 	}
 	
 	
